@@ -1,0 +1,115 @@
+.form-container {
+    margin: 100px auto;
+    width: 1000px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  
+  .form-content-right {
+    background-color: rgb(15, 15, 15);
+    border-radius: 0 10px 10px 0;
+    background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(3, 3, 3) 100%);
+  }
+  
+  .form {
+    
+    width: 70%;
+    height: 170%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 10, 10);
+  }
+  
+  .form h1 {
+    font-size: 2rem;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 1rem;
+    color: rgb(250, 246, 246);
+  }
+  
+  .form-inputs {
+    margin-bottom: 1rem;
+    width: 80%;
+    border: rgb(247, 241, 241);
+  }
+  
+  .form-inputs p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: #f00e0e;
+  }
+  
+  .form-label {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+    color: rgb(252, 247, 247);
+    
+  }
+  
+  .form-input {
+    display: block;
+    margin: auto;
+    align-self: center ;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 50%;
+    border: none;
+    
+  }
+  
+  .form-input::placeholder {
+    color: #595959;
+    font-size: 12px;
+  }
+  
+  .form-input-btn {
+    width: 40%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 2px;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 176, 255) 0%,
+      rgb(0, 232, 236) 100%
+    );
+    outline: none;
+    border: none;
+    color: rgb(17, 17, 17);
+    font-size: 1rem;
+  }
+  
+  .form-input-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 143, 255) 0%,
+      rgb(12, 99, 250) 100%
+    );
+  
+  }
+  
+  .form-input-login {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: rgb(248, 244, 244);
+    width: 80%;
+    text-align: center;
+  }
+  
+  .form-input-login a {
+    text-decoration: none;
+    color: #0da7ee;
+    font-weight: 600;
+  }
+  
